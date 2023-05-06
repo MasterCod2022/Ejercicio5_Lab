@@ -6,13 +6,12 @@ public class Arreglo {
    public static void sumarLista(int arreglo[]) { 
 
         int suma = 0; 
-        double promedio = 0; 
         for (int i = 0; i < arreglo.length; i++) { 
         suma += arreglo[i]; 
 
         } 
 
-        promedio = suma / arreglo.length; 
+        double promedio = suma / arreglo.length; 
         System.out.println("La suma es: " + suma); 
         System.out.println("El promedio es: " + promedio); 
 
